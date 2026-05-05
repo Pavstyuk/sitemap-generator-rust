@@ -1,0 +1,12 @@
+[package]
+name = "sitemap-generator"
+version = "0.1.0"
+edition = "2021"
+description = "Генератор карты сайта в формате XML"
+
+[dependencies]
+reqwest = { version = "0.12", features = ["blocking"] }
+scraper = "0.20"
+url = "2.5"
+quick-xml = "0.37"
+anyhow = "1.0"
